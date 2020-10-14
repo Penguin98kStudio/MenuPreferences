@@ -80,6 +80,7 @@ the default context menu and hence I find it the best to use for our own Menus,
 ofcouse you can alter the keybindings if you want.
 
 Usage Guide:
+
 	the open from current directory command shows a quick panel of files in the
 	current directory, with files with same extension as current listed at top,
 	selecting a file with open it in a new view in sublime
