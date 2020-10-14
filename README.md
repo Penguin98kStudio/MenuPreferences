@@ -64,6 +64,8 @@ with similar extensions listed at the top.
 ##### This package requires the package SideBarEnhancments for it to work properly
 
 The Default Keybindings are:
+These are commented out by defualt, please decomment them in the keymap file or alternatively add them to your user keybindings.
+This is very strongly recommended.
 ```json
 [
 	{ "keys": ["context_menu"], "command": "menu_file_commands" },
