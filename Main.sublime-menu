@@ -1,0 +1,70 @@
+[
+	{
+		"id": "preferences",
+		"children":
+		[
+			{
+				"caption": "Package Settings",
+				"mnemonic": "P",
+				"id": "package-settings",
+				"children":
+				[
+					{
+						"caption": "Menu by Penguin",
+						"children":
+						[
+							{
+								"command": "open_file",
+								"args": {"file": "${packages}/MenuPenguin/README.md"},
+								"caption": "README"
+							},
+							{
+								"command": "open_file",
+								"args": {"file": "${packages}/MenuPenguin/guide.md"},
+								"caption": "Guide -  To add/remove commands"
+							},
+							{ "caption": "-" },
+							{
+								"command": "open_file",
+								"args": {"file": "${packages}/User/MenuPenguin/MenuPenguinDefault.sublime-settings"},
+								"caption": "Settings - Main"
+							},
+							{
+								"command": "open_file",
+								"args": {"file": "${packages}/User/MenuPenguinLists.sublime-settings"},
+								"caption": "Settings - Lists"
+							},
+							{ "caption": "-" },
+							{
+								"command": "open_file",
+								"args": {
+									"file": "${packages}/MenuPenguin/Default (OSX).sublime-keymap",
+									"platform": "OSX"
+								},
+								"caption": "Key Bindings – Default"
+							},
+							{
+								"command": "open_file",
+								"args": {
+									"file": "${packages}/MenuPenguin/Default (Linux).sublime-keymap",
+									"platform": "Linux"
+								},
+								"caption": "Key Bindings – Default"
+							},
+							{
+								"command": "open_file",
+								"args": {
+									"file": "${packages}/MenuPenguin/Default (Windows).sublime-keymap",
+									"platform": "Windows"
+								},
+								"caption": "Key Bindings"
+							},
+							{ "caption": "-" }
+						]
+					}
+				]
+			}
+		]
+	}
+
+]

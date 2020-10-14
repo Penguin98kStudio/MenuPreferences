@@ -1,0 +1,36 @@
+{
+	/*  ------- Sorting Orders Guide -------
+	Caution: The Settings - Lists is key to how the plugin works,
+	please modify only according to the guidelines
+
+	The enables sort sorts that menu List according to the Usage Frequency of the User if set to true,
+	*I strongly recommend using sort through frequency usage*
+	However:
+	to preserve alphabtic order, please follow these instructions:
+		make sure sort is enabled
+		open Menu\Preferences\Menu By Penguin\Settings - Lists
+		if this setting is empty please run a toggle preference command and a file commands command once to fill the list with default options
+
+		change the freq list to: [0,0,...,0]  //no. of 0s should equal to no. of commands
+		run the first alphabetic ordered command on the list through the menu command
+		once to fix the list
+		expected freq output: [1,0,0...,0]
+		expected command list output:alphabetic ordered commands
+		now disable sort in Settings - Main (this file) to preserve this order
+	to preserve a custom order, please follow these instructions:
+		make sure sort is enabled
+		open Menu\Preferences\Menu By Penguin\Settings - Lists
+		write your order in the frequency accordingly
+		Note: The freq table co-relates with the command list.
+		Example: if u want to make the 1st command to 3rd place and
+		2nd command to 1st place, and 3rd command to 2nd place
+		set the freq [1,3,2]
+		run the first command on the list
+		through the menu command once to fix the list
+		expected freq output: [4,2,1]
+		expected command list output:[2ndcommand,3rdcommand,1st command]
+		now disable sort to preserve this order
+	*/
+	"enable_sort_for_toggle": true,
+	"enable_sort_for_file_commands": true,
+}

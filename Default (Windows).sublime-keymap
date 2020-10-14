@@ -1,0 +1,5 @@
+[
+	{ "keys": ["context_menu"], "command": "menu_file_commands" },
+	{ "keys": ["shift+context_menu"],	"command": "menu_toggle_preferences"	},
+	{ "keys": ["ctrl+context_menu"], "command": "menu_open_from_current_dir" },
+]

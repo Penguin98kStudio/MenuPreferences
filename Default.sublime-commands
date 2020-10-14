@@ -1,0 +1,14 @@
+[
+	{
+		"caption": "Menu: Toggle Preferences",
+		"command": "menu_toggle_preferences",
+	},
+	{
+		"caption": "Menu: File Commands",
+		"command": "menu_file_commands",
+	},
+	{
+		"caption": "Menu: Open File From Current Dir",
+		"command": "menu_open_from_current_dir",
+	},
+]
