@@ -1,6 +1,6 @@
 [
-	// change alt+context_menu to only context_menu in my opinion :)
-	{ "keys": ["alt+context_menu"], "command": "menu_file_commands" },
-	{ "keys": ["shift+context_menu"],	"command": "menu_toggle_preferences"	},
-	{ "keys": ["ctrl+context_menu"], "command": "menu_open_from_current_dir" },
+	// De-comment the keybindings to use them :)
+// 	{ "keys": ["context_menu"], "command": "menu_file_commands" },
+// 	{ "keys": ["shift+context_menu"],"command": "menu_toggle_preferences"	},
+// 	{ "keys": ["ctrl+context_menu"], "command": "menu_open_from_current_dir" },
 ]
