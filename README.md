@@ -3,9 +3,9 @@
 ## Why Use MenuPreferences By Penguin98kStudio
 
 Main Features:
-	[Toggle Preferences Example](toggle-example.png)
-	[File Commands Example](commands-example.png)
-	[Open File Example](open-example.png)
+	![Toggle Preferences Example](toggle-example.png)
+	![File Commands Example](commands-example.png)
+	![Open File Example](open-example.png)
 
 ### Toggle Prefrences
 
@@ -79,25 +79,24 @@ the primary reason for using this key is that people rarely use it to open
 the default context menu and hence I find it the best to use for our own Menus,
 ofcouse you can alter the keybindings if you want.
 
-Usage Guide:
+#### Usage Guide:
 
-	the open from current directory command shows a quick panel of files in the
-	current directory, with files with same extension as current listed at top,
-	selecting a file with open it in a new view in sublime
-	intended use: you are writing a script and you need to quickly open a
-	related script to view/edit its content
+- the open from current directory command shows a quick panel of files in the
+current directory, with files with same extension as current listed at top,
+selecting a file with open it in a new view in sublime
+intended use: you are writing a script and you need to quickly open a
+related script to view/edit its content
 
-	the file commands menu shows a quick panel to quickly execute any command
-	related to file,
-	to add or remove commands please refer to the guide in
-	(Menu\Prefrences\PackageSettings\Menu by Penguin\Guide)
+- the file commands menu shows a quick panel to quickly execute any command
+related to file,
+to add or remove commands please refer to the guide in
+(Menu\Prefrences\PackageSettings\Menu by Penguin\Guide)
 
-	the toggle preferences commands menu shows a quick panel to quickly execute
-	any preference, this toggle is temporary and limited to the current view,
-	inteded use: for altering preferences for a limited time to help you do a task
-	example: you might want to temporarily toggle word wrap or show all whitespaces
-
-	to add or remove preferences please refer to the guide
+- the toggle preferences commands menu shows a quick panel to quickly execute
+any preference, this toggle is temporary and limited to the current view,
+inteded use: for altering preferences for a limited time to help you do a task
+example: you might want to temporarily toggle word wrap or show all whitespaces
+to add or remove preferences please refer to the guide
 
 Please See the the 'Guide' and 'Settings - Main'
 from Menu/Preferences/Menu By Penguin
