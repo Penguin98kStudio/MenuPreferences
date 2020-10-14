@@ -42,7 +42,7 @@ For Active Users of Sublime, we often need to run basic file commands.
 The most common being opening the current file directory in the file explorer,
 renaming your file, moving, or deleting, or copy etc
 to use command pallete, typing some keyword to find your command becomes a bit
-slow and annoying. However Now you can simply press context_menu key to see the
+slow and annoying. However Now you can simply press alt+context_menu key to see the
 relevant commands in a quick panel, with them already sorted according to your
 usage. You like to move, rename, make new files (in current directory) often?
 Then you will find them right at the top. Also, you can easily add/remove
@@ -65,11 +65,9 @@ with similar extensions listed at the top.
 
 The Default Keybindings are:
 
-These are commented out by defualt, please decomment them in the keymap file or alternatively add them to your user keybindings.
-This is very strongly recommended.
 ```json
 [
-	{ "keys": ["context_menu"], "command": "menu_file_commands" },
+	{ "keys": ["alt+context_menu"], "command": "menu_file_commands" },
 	{ "keys": ["shift+context_menu"], "command": "menu_toggle_preferences"	},
 	{ "keys": ["ctrl+context_menu"], "command": "menu_open_from_current_dir" },
 ]
