@@ -3,9 +3,9 @@
 ## Why Use MenuPreferences By Penguin98kStudio
 
 Main Features:
-	![Toggle Preferences Example][toggle-example.png]
-	![File Commands Example][commands-example.png]
-	![Open File Example][open-example.png]
+	[Toggle Preferences Example][toggle-example.png]
+	[File Commands Example][commands-example.png]
+	[Open File Example][open-example.png]
 
 ### Toggle Prefrences
 
@@ -73,7 +73,7 @@ The Default Keybindings are:
 ```
 For those unfamilar, this is the key,
 
-![Context Menu Key Image][menu-key-keyboard.png]
+[Context Menu Key Image][menu-key-keyboard.png]
 
 the primary reason for using this key is that people rarely use it to open
 the default context menu and hence I find it the best to use for our own Menus,
