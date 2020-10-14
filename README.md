@@ -1,4 +1,4 @@
-[![Link to Package Control](https://packagecontrol.io/packages/MenuPenguin)](https://packagecontrol.io/packages/MenuPenguin)
+[![Link to Package Control](https://packagecontrol.io/packages/MenuPreferences)](https://packagecontrol.io/packages/MenuPreferences)
 
 # Why Use MenuPreferences By Penguin98kStudio
 
@@ -67,7 +67,7 @@ The Default Keybindings are:
 ```json
 [
 	{ "keys": ["context_menu"], "command": "menu_file_commands" },
-	{ "keys": ["shift+context_menu"],	"command": "menu_toggle_preferences"	},
+	{ "keys": ["shift+context_menu"], "command": "menu_toggle_preferences"	},
 	{ "keys": ["ctrl+context_menu"], "command": "menu_open_from_current_dir" },
 ]
 ```
