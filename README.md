@@ -1,16 +1,12 @@
 [![Link to Package Control](https://packagecontrol.io/packages/MenuPenguin)](https://packagecontrol.io/packages/MenuPenguin)
 
-## Why Use MenuPreferences By Penguin98kStudio
-
-Main Features:
-	![Toggle Preferences Example](toggle-example.png)
-	![File Commands Example](commands-example.png)
-	![Open File Example](open-example.png)
+# Why Use MenuPreferences By Penguin98kStudio
 
 ### Toggle Prefrences
 
 > To enable or disable? - the eternal question for not-so-frequent-features
 
+![Toggle Preferences Example](toggle-example.png)
 Are you one of those people who wants to enable a popupmenu/statusbar/
 some other feature but you don't always use it,
 sometimes its annoying but sometimes its really helpful and
@@ -25,23 +21,23 @@ top. You can easily add/remove preferences in the list by following the guide.
 (Menu\Prefrences\PackageSettings\Menu by Penguin\Guide)
 
 I personally often use it for:
-1. word wrap(can be annoying when using multi-cursor)
-2. show whitespace (for code formatting)
-3. plugins which show stuff in statusbar
-	(enabling too many all the time clutters the statusbar)
-4. popups (for python coding, Anaconda doc strings popups are really helpful
+- word wrap(can be annoying when using multi-cursor)
+- show whitespace (for code formatting)
+- plugins which show stuff in statusbar
+(enabling too many all the time clutters the statusbar)
+- popups (for python coding, Anaconda doc strings popups are really helpful
 	when you are not familiar with the functions but really annoying when you
 	don't need them)
-5. my own plugins, mostly plugins which are Event Listeners based.
+- my own plugins, mostly plugins which are Event Listeners based.
 
 keyboard shortcut: shift+context_menu
 
-Tip for Advanced Users: use package resource viewer to modify an
-installed package so that its command/feature is toggled from a preference
+##### Tip for Advanced Users:
+use package resource viewer to modify an installed package
+so that its command/feature is toggled from a preference
 in the settings, I often do that as it really helps
 
 ### File Commands
-
 For Active Users of Sublime, we often need to run basic file commands.
 The most common being opening the current file directory in the file explorer,
 renaming your file, moving, or deleting, or copy etc
@@ -53,10 +49,14 @@ Then you will find them right at the top. Also, you can easily add/remove
 commands in the list by following the guide
 (Menu\Prefrences\PackageSettings\Menu by Penguin\Guide)
 
+![File Commands Example](commands-example.png)
+
 Similarly, we often need to open a file in sublime from the current directory
 most commonly the same type (example .py when using python), so pressing
 ctrl+context_menu neatly opens the file list in quick panel,
 with similar extensions listed at the top.
+
+![Open File Example](open-example.png)
 
 ## Getting Started
 
